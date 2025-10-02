@@ -7,7 +7,7 @@ This project showcases a modern, clean UI with animations and responsive design 
 ## ✨ Features
 
 
-- 📱 **Fully Responsive Design* (Desktop, Tablet, Mobile)
+- 📱 **Fully Responsive Design** (Desktop, Tablet, Mobile)
 - 🎨 **Modern UI/UX with custom color palette**
 - 📂 **Reusable Components** (cards, buttons, filter sections)
 - 🌟 **Scroll Animations** using [ScrollReveal](https://scrollrevealjs.org/)
