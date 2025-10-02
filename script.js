@@ -62,62 +62,51 @@ const scrollRevealOption = {
 
 ScrollReveal().reveal('.home__img', {
     ...scrollRevealOption,
-    delay: 300,
 });
 
 ScrollReveal().reveal('.home__text', {
     ...scrollRevealOption,
-    delay: 600,
 });
 
 
 ScrollReveal().reveal('.buttons', {
     ...scrollRevealOption,
-    delay: 700,
 });
 
 
 ScrollReveal().reveal('.head__title', {
     ...scrollRevealOption,
-    delay: 900,
 });
 
 
 ScrollReveal().reveal('.menu__container', {
     ...scrollRevealOption,
-    delay: 1200,
 });
 
 
 ScrollReveal().reveal('.filter__btns', {
     ...scrollRevealOption,
-    delay: 1100,
 });
 
 ScrollReveal().reveal('.filter__card', {
     ...scrollRevealOption,
-    delay: 1200,
 });
 
 
 ScrollReveal().reveal('.about__box', {
     ...scrollRevealOption,
-    delay: 1200,
 });
 
 
 ScrollReveal().reveal('.about__text', {
     ...scrollRevealOption,
-    delay: 1400,
 });
 
 
 ScrollReveal().reveal('.team__card', {
     ...scrollRevealOption,
-    delay: 1200,
 });
 
 ScrollReveal().reveal('.contact__container', {
     ...scrollRevealOption,
-    delay: 1400,
 });
