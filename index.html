@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N food | Enjoy your food</title>
+    <!--
+    ***************************************
+    Icons
+    ***************************************
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--
+    ****************************************
+    Styles
+    ****************************************
+    -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--
+    ****************************************
+    Header
+    ****************************************
+    -->
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo"><a href="#">N.food</a></div>
+
+                <ul class="nav__links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#offers">Offers</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <div class="hamburger__menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--
+    ****************************************
+    Home Section
+    ****************************************
+    -->
+    <section class="section" id="home">
+        <div class="home__container">
+            <div class="home__img">
+                <img src="assets/home.png" alt="home img">
+            </div>
+            <div class="home__text">
+                <h1>Delicious Food, Delivered Fresh to Your Doorstep</h1>
+                <p>Enjoy chef-crafted meals made with fresh ingredients. Order online and taste the difference today.
+                </p>
+                <div class="buttons">
+                    <button class="btn"><a href="#">Order Now</a></button>
+                    <button class="btn__secondary"><a href="#">View menu</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="head__title">
+            <h1>Delicious Choices, Made Fresh</h1>
+            <p>A perfect mix of traditional recipes and modern flavors—made to bring joy in every bite.</p>
+        </div>
+        <div class="menu__container">
+            <div class="hamburger"></div>
+            <div class="pizza"></div>
+            <div class="pasta"></div>
+            <div class="drink"></div>
+            <div class="fried"></div>
+        </div>
+    </section>
+
+    <!--
+    ****************************************
+    Menu Section
+    ****************************************
+    -->
+    <section class="section" id="menu">
+        <div class="head__title">
+            <h1>Find Your Favorite Flavor</h1>
+            <p>Browse our menu by category and enjoy the perfect treat, anytime you want.</p>
+        </div>
+        <div class="menu__filter">
+            <div class="filter__btns">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="pizza">Pizza</button>
+                <button class="filter-btn" data-filter="pasta">Pasta</button>
+                <button class="filter-btn" data-filter="burgers">Burgers</button>
+                <button class="filter-btn" data-filter="fried">Fried</button>
+            </div>
+
+            <div class="filter__box">
+
+                <div class="filter__card" data-name="pasta">
+                    <img src="assets/filter-1.png" alt="Carbonara Pasta">
+                    <h1>Carbonara Pasta</h1>
+                    <div class="price">$14.99</div>
+                </div>
+
+                <div class="filter__card" data-name="pizza">
+                    <img src="assets/filter-2.png" alt="Mexican Pizza">
+                    <h1>Mexican Pizza</h1>
+                    <div class="price">$13.00</div>
+                </div>
+
+                <div class="filter__card" data-name="fried">
+                    <img src="assets/filter-3.png" alt="Kentucky">
+                    <h1>Kentucky</h1>
+                    <div class="price">$21.00</div>
+                </div>
+
+                <div class="filter__card" data-name="pizza">
+                    <img src="assets/filter-4.png" alt="Chicken Pizza">
+                    <h1>Chicken Pizza</h1>
+                    <div class="price">$13.49</div>
+                </div>
+
+                <div class="filter__card" data-name="burgers">
+                    <img src="assets/filter-5.png" alt="Beef Burger">
+                    <h1>Beef Burger</h1>
+                    <div class="price">$19.99</div>
+                </div>
+
+                <div class="filter__card" data-name="fried">
+                    <img src="assets/filter-6.png" alt="Kentucky">
+                    <h1>Kentucky</h1>
+                    <div class="price">$3.99</div>
+                </div>
+
+                <div class="filter__card" data-name="pizza">
+                    <img src="assets/filter-7.png" alt="Salami Pizza">
+                    <h1>Salami Pizza</h1>
+                    <div class="price">$7.99</div>
+                </div>
+
+                <div class="filter__card" data-name="pasta">
+                    <img src="assets/filter-8.png" alt="Pesto Pasta">
+                    <h1>Pesto Pasta</h1>
+                    <div class="price">$9.99</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--
+    ****************************************
+    About Section
+    ****************************************
+    -->
+    <section class="section" id="about">
+        <div class="head__title">
+            <h1>Our Story</h1>
+            <p>At Nirvana Restaurant, we craft dishes with fresh ingredients, authentic recipes, and a passion for
+                flavor.</p>
+        </div>
+        <div class="about__container">
+            <div class="about__box">
+                <img src="assets/about.png" alt="about">
+                <div class="about__text">
+                    <h1>A Place for Food Lovers</h1>
+                    <p>At Nirvana Restaurant, every plate tells a story.
+                        From authentic pasta dishes to fresh pizzas and flavorful grills,
+                        we serve food made with love, care, and a touch of inspiration.
+                        Come hungry, leave happy.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--
+    ****************************************
+    Team Section
+    ****************************************
+    -->
+    <section class="section" id="team">
+        <div class="head__title">
+            <h1>Meet Our Master Chef</h1>
+            <p>Behind every dish is a story of passion, creativity, and years of culinary expertise
+            </p>
+        </div>
+
+        <div class="team__container">
+            <div class="team__card">
+                <img src="assets/chef-1.jpg" alt="chef">
+                <h1>Chef Daniel</h1>
+                <p>Head Chef</p>
+            </div>
+
+            <div class="team__card">
+                <img src="assets/chef-2.jpg" alt="chef">
+                <h1>Chef Sophia</h1>
+                <p>Grill Specialist</p>
+            </div>
+
+            <div class="team__card">
+                <img src="assets/chef-3.jpg" alt="chef">
+                <h1>Chef John</h1>
+                <p>Culinary Innovator</p>
+            </div>
+
+            <div class="team__card">
+                <img src="assets/chef-4.jpg" alt="chef">
+                <h1>Chef Victor</h1>
+                <p>Vegetable</p>
+            </div>
+        </div>
+    </section>
+    <!--
+    ****************************************
+    Offer Section
+    ****************************************
+    -->
+    <section class="section" id="offers">
+        <div class="head__title">
+            <h1>Exclusive Offers Just for You</h1>
+            <p>Discover our special deals and limited-time offers. Enjoy your favorite dishes and drinks at amazing
+                prices.
+            </p>
+        </div>
+
+        <div class="filter__box">
+
+            <div class="filter__card">
+                <img src="assets/offer-1.png" alt="Mexican Nachos">
+                <h1>Mexican Nachos</h1>
+                <del>$29.99</del>
+                <div class="price">$19.99</div>
+            </div>
+
+            <div class="filter__card">
+                <img src="assets/offer-2.png" alt="Roast Meat Steak">
+                <h1>Roast Meat Steak</h1>
+                <del>$18.99</del>
+                <div class="price">$14.49</div>
+            </div>
+
+            <div class="filter__card">
+                <img src="assets/offer-3.png" alt="Roasted Grilled Chicken">
+                <h1>Roasted Grilled Chicken</h1>
+                <del>$17.99</del>
+                <div class="price">$12.00</div>
+            </div>
+
+            <div class="filter__card">
+                <img src="assets/offer-4.png" alt="fusilli pasta">
+                <h1>fusilli pasta</h1>
+                <del>$12.99</del>
+                <div class="price">$8.49</div>
+            </div>
+        </div>
+    </section>
+    <!--
+    ****************************************
+    Contact Section
+    ****************************************
+    -->
+    <section class="section" id="contact">
+        <div class="contact__container">
+            <div class="contact__box">
+                <h1>Get in Touch with Us</h1>
+                <p>Have questions, feedback, or just want to say hello? Our team is here to help and make your
+                    experience unforgettable."</p>
+                <div class="email">
+                    <input type="email" placeholder="Enter your email...">
+                    <button class="btn"><a href="#">Subscribe</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--
+    ****************************************
+    Footer Section
+    ****************************************
+    -->
+    <footer>
+        <div class="footer__container">
+            <div class="footer__col">
+                <h2>N.food</h2>
+                <p>delivering delicious, chef-crafted meals straight to your door. Fresh ingredients, authentic flavors,
+                    and a passion for good food.</p>
+                <div class="footer__social">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer__col">
+                <h3>Quick Links</h3>
+                <p><a href="#home">Home</a></p>
+                <p><a href="#menu">Menu</a></p>
+                <p><a href="#about">About us</a></p>
+                <p><a href="#team">Team</a></p>
+                <p><a href="#contact">Contact</a></p>
+            </div>
+
+            <div class="footer__col">
+                <h3>Categories</h3>
+                <p><a href="#">Pizza</a></p>
+                <p><a href="#">Burgers</a></p>
+                <p><a href="#">Pasta</a></p>
+                <p><a href="#">Fried</a></p>
+            </div>
+
+            <div class="footer__col">
+                <h3>Contact info</h3>
+                <p><i class="fa-solid fa-phone"></i>+1 234 567 8900</p>
+                <p><i class="fa-solid fa-location-dot"></i>123 Food Street, City, Country</p>
+                <p><i class="fa-solid fa-envelope"></i>info@nfood.com</p>
+                <p><i class="fa-solid fa-clock"></i>Open: 10:00 AM - 11:00 PM</p>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright © 2025 Web Design Zahra Babamohammadi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--
+    *************************************
+      Scroll 
+    *************************************
+    -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--
+    ****************************************
+    Js 
+    ****************************************
+    -->
+    <script src="script.js"></script>
+</body>
+
+</html>
